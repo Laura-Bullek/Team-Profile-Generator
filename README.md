@@ -46,7 +46,8 @@ THEN I exit the application, and the HTML is generated
 ## Technologies
  - JavaScript
  - Node.js
- 
+ - Inquirer
+
 
 ## Credits 
 The web development bootcamp program is offered through the University of New Hampshire Professional Development & Training and Trilogy Education Services.
