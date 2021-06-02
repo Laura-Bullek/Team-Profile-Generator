@@ -16,7 +16,7 @@ function createCard() {
       {
           type: 'input',
           name: 'managerId',
-          message: 'Type in their ID number'
+          message: 'Type in the ID number'
       },
       {
           type: 'input',
@@ -32,3 +32,53 @@ function createCard() {
   ])}
 
 console.log(createCard());
+
+function internInfo() {
+
+  return inquirer.prompt([
+      {
+          type: 'input',
+          name: 'internName',
+          message: 'What is the name of the intern?'
+      },
+      {
+          type: 'input',
+          name: 'internId',
+          message: 'Type in the ID number'
+      },
+      {
+          type: 'input',
+          name: 'internEmail',
+          message: 'What is their email?'
+      },
+      {
+          type: 'input',
+          name: 'internSchool',
+          message: 'What school did the intern attend?'
+      }
+  ])}
+
+  function engineerInfo() {
+    inquirer.prompt([
+        {
+            type: 'input',
+            name: 'engineerName',
+            message: 'What is the name of the engineer?'
+        },
+        {
+            type: 'input',
+            name: 'engineerId',
+            message: 'Type in the ID number'
+        },
+        {
+            type: 'input',
+            name: 'engineerEmail',
+            message: 'What is their email?'
+        },
+        {
+            type: 'input',
+            name: 'engineerGithub',
+            message: 'What is the GitHub username of the engineer?'
+        }
+    ])}
+  
